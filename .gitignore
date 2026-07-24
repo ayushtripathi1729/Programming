@@ -1,0 +1,8 @@
+.vscode/
+*.exe
+*.out
+*.o
+*.obj
+*.class
+__pycache__/
+*.pyc
