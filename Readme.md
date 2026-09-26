@@ -14,6 +14,7 @@ Contents include:
 - Notes
 
 Languages:
+- C
 - C++
 - Python
 - Go
