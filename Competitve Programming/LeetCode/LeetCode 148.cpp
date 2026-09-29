@@ -1,13 +1,11 @@
-/**
- * Definition for singly-linked list.
- * struct ListNode {
- *     int val;
- *     ListNode *next;
- *     ListNode() : val(0), next(nullptr) {}
- *     ListNode(int x) : val(x), next(nullptr) {}
- *     ListNode(int x, ListNode *next) : val(x), next(next) {}
- * };
- */
+/*This above header files and struct definition is just written for the sake of declaration*/
+#include<bits/stdc++.h>
+using namespace std;
+
+typedef struct ListNode{
+    int val;
+    struct ListNode* next;
+}ListNode;
 class Solution {
 public:
     ListNode* MergeList(ListNode* list1, ListNode* list2){
